@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Contenido | Arboles Binarios </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Daniel Qiñonez - Cristian Hernandez" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.6 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<link rel="stylesheet" type="text/css" href="udl-content.css" />
+<script type="text/javascript" src="udl-content.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+<body class="exe-web-site" id="exe-node-1"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Arboles Binarios</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Arboles Binarios</a></li>
+   <li id="active"><a href="contenido.html" class="active no-ch">Contenido</a></li>
+   <li><a href="actividad_de_evaluacin.html" class="no-ch">Actividad de evaluación</a></li>
+   <li><a href="creditos.html" class="no-ch">Creditos</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="index.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="actividad_de_evaluacin.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Contenido</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id2">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Arboles binarios</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta2_114_2" class="block iDevice_content">
+<div class="exe-text"><p style="text-align: justify;"><strong>Concepto: </strong><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">Un árbol binario es un tipo de árbol en que cada vértice máximo puede tener dos </span><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">hijos; su nodo raíz está enlazado a dos subárboles binarios denominados subárbol </span><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">izquierdo y subárbol derecho.</span><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;"></span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">Sea T un árbol con  <strong>|V(T)| ≥ 3, T </strong>se llama árbol binario. si en <strong>V(T)</strong>, existe un único vértice, denominado Vr para el cual <strong>g(Vr) = 2</strong> y <strong>g(v) = 3</strong>  <strong>g(Vi) = 1</strong> para cualquier otro vértice, El vértice <strong>Vr</strong> se denomina vértice raíz del árbol</span></p>
+<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;"><img src="arbolbinario.PNG" alt="" width="239" height="207" style="display: block; margin-left: auto; margin-right: auto;" /></span></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice" id="id16">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Tema 1: Propiedades de los arboles binarios</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta16_120_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-engagement"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>E<span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">l número de vértices de un árbol binario T es impar</span><br><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">Sea k un nivel cualquiera de un árbol binario, el numero máximo de vértices de ese nivel será: 2^k</span><br><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">Para un árbol binario de altura k, el máximo numero de vértices del árbol sea 2^(k+1) - 1&nbsp;</span></p>
+<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;"><img src="arbolbinario.PNG" alt="" width="239" height="207" style="display: block; margin-left: auto; margin-right: auto;"></span></p>
+<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;"><strong>Ejemplo</strong></span></p>
+<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">Del la figura del árbol T anterior, podemos demostrar las siguientes propiedades</span></p>
+<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">1<strong> Propiedad:</strong> n = 7,&nbsp;<strong>2 Propiedad:</strong> 2^2 = 4,&nbsp;<strong>3 Propiedad:</strong> 2^(3+1) - 1 =&nbsp; 15</span></p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice" id="id4">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Tema 2: Vértices internos </h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta4_112_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-engagement"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p><span style="color: #000000; font-family: arial, helvetica, sans-serif; font-size: 12pt;">Los vértices de un árbol binario para los cuales g(V)=3 se llaman <strong>VÉRTICES </strong></span><br><strong><span style="color: #000000; font-family: arial, helvetica, sans-serif; font-size: 12pt;">INTERNOS</span></strong></p>
+<p><strong><span style="color: #000000; font-family: arial, helvetica, sans-serif; font-size: 12pt;"><img src="arbol1.png" alt="" width="261" height="165"></span></strong></p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice" id="id6">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Tema 3: Niveles de un arbol</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta6_114_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-engagement"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">En un árbol binario T. se dice que un vértice Vi está en el nivel li. Si la distancia de la raíz Vr es</span><br><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">igual a li. Es decir, <strong>d (Vr, Vi) ) = li</strong></span></p>
+<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;"><strong><img src="nivel.PNG" alt="" width="569" height="226"></strong></span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif; color: #000000;">El nivel de un nodo en un árbol binario se define del modo siguiente: </span></p>
+<ul>
+<li><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif; color: #000000;">La raíz del árbol tiene el nivel 0.</span></li>
+<li><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif; color: #000000;">El nivel de cualquier otro nodo en el árbol es uno más que el<br>nivel de su padre. </span></li>
+</ul>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;"><strong>Ejemplo:</strong>&nbsp;<span style="color: #000000;">la imagen anterior es un árbol binario T con 9 vértices y 3 niveles 1, 2, 3; el número de vértices</span><br><span style="color: #000000;">en cada nivel es 2, 4 y 2 respectivamente. (La raíz del árbol se encuentra en el nivel 0).</span></span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif; color: #000000;"><strong>Altura:&nbsp;</strong>es el máximo nivel (lmax), de un árbol binario T. en el árbol anterior, podemos deducir que,&nbsp;<strong>Lmax = 3&nbsp;</strong>respectivamente.</span><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif; color: #000000;"></span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif; color: #000000;">Para un árbol T, con n vértices, tenemos que:&nbsp;</span></p>
+<p style="text-align: justify;"><img src="eXe_LaTeX_math_6.gif" width="170" height="63" style="vertical-align: baseline;"></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;"><strong>Altura minima:&nbsp;</strong>en un árbol binario T con n vértices, tenemos que la altura minima se calcula mediante la expresión</span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;"><strong>minLmax=(log⁡2 (n +1 ) – 1 )</strong></span></p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id14">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Tema 4: Longitud cadena de un árbol</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta14_118_2" class="block iDevice_content">
+<div class="exe-text"><p style="text-align: justify;"><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">La importancia del cálculo de la longitud de la cadena de un árbol binario radica en el hecho que esta cantidad está a menudo relacionada con el tiempo de realización o el costo de la investigación.</span></p>
+<p style="text-align: justify;"><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">En un árbol binario T,  los vértices pendientes Vj tienen asociado un número real positivo P(Vj) que llamamos el peso Vj; que para el caso de procedimientos investigativos puede considerarse como costo o el tiempo para lograr cada resultado, dados, p(V1), p(V2) …p(Vp), se pide construir un árbol binario (con p vértices pendientes).                                                                                                                                             </span><strong><span style="font-size: 14pt; font-family: arial, helvetica, sans-serif;">Σ 𝑝(𝑉𝑗) 𝐿i,<span style="font-size: 12pt;">                                                                                                                                                                                                       </span></span></strong><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">donde Li es nivel del vértice pendiente del un árbol T</span></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id15">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Tema 5: Construcción de un árbol binario</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta15_119_2" class="block iDevice_content">
+<div class="exe-text"><p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;"><strong>Construcción de un árbol binario a partir de sus recorridos</strong></span></p>
+<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">Para construir un árbol binario se deben de tener por lo minimo dos recorridos, y en uno de esos recorridos debe estar el <strong>in- order</strong>, ya que sin ese recorrido es imposible construir el árbol.</span></p>
+<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;"><strong>Ejemplo: </strong>Dado los siguientes recorrido se pide construir el árbol binario</span></p>
+<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;"><strong>Pre - order</strong> </span></p>
+<table border="1" style="width: 38.0066%;">
+<tbody>
+<tr>
+<td style="width: 5.44327%; text-align: center;"><strong>A</strong></td>
+<td style="width: 6.26253%; text-align: center;"><strong>B</strong></td>
+<td style="width: 6.48777%; text-align: center;"><strong>D</strong></td>
+<td style="width: 5.57107%; text-align: center;"><strong>G</strong></td>
+<td style="width: 7.05495%; text-align: center;"><strong>H</strong></td>
+<td style="width: 6.07028%; text-align: center;"><strong>K</strong></td>
+<td style="width: 7.64678%; text-align: center;"><strong>L</strong></td>
+<td style="width: 7.01226%; text-align: center;"><strong>C</strong></td>
+<td style="width: 6.35955%; text-align: center;"><strong>E</strong></td>
+<td style="width: 6.38627%; text-align: center;"><strong>I</strong></td>
+<td style="width: 6.67099%; text-align: center;"><strong>F</strong></td>
+<td style="width: 6.07097%; text-align: center;"><strong>J</strong></td>
+<td style="width: 10.3629%; text-align: center;"><strong>M</strong></td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;"><strong>In - order</strong></span></p>
+<table border="1" style="width: 38.6207%;">
+<tbody>
+<tr>
+<td style="width: 7.29592%;"><strong>G</strong></td>
+<td style="width: 6.83676%;"><strong>D</strong></td>
+<td style="width: 7.11734%;"><strong>K</strong></td>
+<td style="width: 6.09698%;"><strong>H</strong></td>
+<td style="width: 7.44898%;"><strong>L</strong></td>
+<td style="width: 7.95917%;"><strong>B</strong></td>
+<td style="width: 7.44897%;"><strong>A</strong></td>
+<td style="width: 8.21431%;"><strong>E</strong></td>
+<td style="width: 7.70412%;"><strong>I</strong></td>
+<td style="width: 6.93874%;"><strong>C</strong></td>
+<td style="width: 5.91836%;"><strong>F</strong></td>
+<td style="width: 5.40817%;"><strong>J</strong></td>
+<td style="width: 6.59747%;"><strong>M</strong></td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">1. Construimos una matriz de n x n, donde n = números de vértices, en este caso n = 13                                                                                         (En primera fila de la matriz siempre ira el recorrido<strong> in - order</strong>, y en la primera columna colocaremos el recorrido <strong>pre - order</strong> de arriba hacia abajo, como se muestra en la siguiente matriz).</span></p>
+<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">2. Lo siguiente que hacemos es ubicar los vértices del arbol, en la matriz, esto lo haremos asociando los valores de los recorridos,          ejemplo:(A,A), (B,B), (D,D), etc.</span></p>
+<table border="1" style="width: 59.2516%; height: 345px;" height="322">
+<tbody>
+<tr style="height: 25px;">
+<td style="width: 5.0535%; height: 26px;"></td>
+<td style="width: 5.64825%; height: 26px; text-align: center;"><strong>G</strong></td>
+<td style="width: 5.33317%; height: 26px; text-align: center;"><strong>D</strong></td>
+<td style="width: 5.21969%; height: 26px; text-align: center;"><strong>K</strong></td>
+<td style="width: 5.83679%; height: 26px; text-align: center;"><strong>H</strong></td>
+<td style="width: 5.2268%; height: 26px; text-align: center;"><strong>L</strong></td>
+<td style="width: 5.45279%; height: 26px; text-align: center;"><strong>B</strong></td>
+<td style="width: 5.03308%; height: 26px; text-align: center;"><strong>A</strong></td>
+<td style="width: 5.58713%; height: 26px; text-align: center;"><strong>E</strong></td>
+<td style="width: 5.67099%; height: 26px; text-align: center;"><strong>I</strong></td>
+<td style="width: 6.30709%; height: 26px; text-align: center;"><strong>C</strong></td>
+<td style="width: 5.88359%; height: 26px; text-align: center;"><strong>F</strong></td>
+<td style="width: 6.24141%; height: 26px; text-align: center;"><strong>J</strong></td>
+<td style="width: 5.29899%; height: 26px; text-align: center;"><strong>M</strong></td>
+</tr>
+<tr style="height: 24px;">
+<td style="width: 5.0535%; height: 24px; text-align: center;"><strong>A</strong></td>
+<td style="width: 5.64825%; height: 24px; text-align: center;"></td>
+<td style="width: 5.33317%; height: 24px; text-align: center;"></td>
+<td style="width: 5.21969%; height: 24px; text-align: center;"></td>
+<td style="width: 5.83679%; height: 24px; text-align: center;"></td>
+<td style="width: 5.2268%; height: 24px; text-align: center;"></td>
+<td style="width: 5.45279%; height: 24px; text-align: center;"></td>
+<td style="width: 5.03308%; height: 24px; text-align: center;"><span style="font-size: 14pt;"><strong> <span style="color: #ff0000;">O</span></strong></span></td>
+<td style="width: 5.58713%; height: 24px; text-align: center;"></td>
+<td style="width: 5.67099%; height: 24px; text-align: center;"></td>
+<td style="width: 6.30709%; height: 24px; text-align: center;"></td>
+<td style="width: 5.88359%; height: 24px; text-align: center;"></td>
+<td style="width: 6.24141%; height: 24px; text-align: center;"></td>
+<td style="width: 5.29899%; height: 24px; text-align: center;"></td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 5.0535%; height: 25px; text-align: center;"><strong>B</strong></td>
+<td style="width: 5.64825%; height: 25px; text-align: center;"></td>
+<td style="width: 5.33317%; height: 25px; text-align: center;"></td>
+<td style="width: 5.21969%; height: 25px; text-align: center;"></td>
+<td style="width: 5.83679%; height: 25px; text-align: center;"></td>
+<td style="width: 5.2268%; height: 25px; text-align: center;"></td>
+<td style="width: 5.45279%; height: 25px; text-align: center;"><span style="font-size: 14pt; color: #0000ff;"><strong>O</strong></span></td>
+<td style="width: 5.03308%; height: 25px; text-align: center;"></td>
+<td style="width: 5.58713%; height: 25px; text-align: center;"></td>
+<td style="width: 5.67099%; height: 25px; text-align: center;"></td>
+<td style="width: 6.30709%; height: 25px; text-align: center;"></td>
+<td style="width: 5.88359%; height: 25px; text-align: center;"></td>
+<td style="width: 6.24141%; height: 25px; text-align: center;"></td>
+<td style="width: 5.29899%; height: 25px; text-align: center;"></td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 5.0535%; height: 25px; text-align: center;"><strong>D</strong></td>
+<td style="width: 5.64825%; height: 25px; text-align: center;"></td>
+<td style="width: 5.33317%; height: 25px; text-align: center;"><span style="font-size: 14pt;"><strong>O</strong></span></td>
+<td style="width: 5.21969%; height: 25px; text-align: center;"></td>
+<td style="width: 5.83679%; height: 25px; text-align: center;"></td>
+<td style="width: 5.2268%; height: 25px; text-align: center;"></td>
+<td style="width: 5.45279%; height: 25px; text-align: center;"></td>
+<td style="width: 5.03308%; height: 25px; text-align: center;"></td>
+<td style="width: 5.58713%; height: 25px; text-align: center;"></td>
+<td style="width: 5.67099%; height: 25px; text-align: center;"></td>
+<td style="width: 6.30709%; height: 25px; text-align: center;"></td>
+<td style="width: 5.88359%; height: 25px; text-align: center;"></td>
+<td style="width: 6.24141%; height: 25px; text-align: center;"></td>
+<td style="width: 5.29899%; height: 25px; text-align: center;"></td>
+</tr>
+<tr style="height: 29px;">
+<td style="width: 5.0535%; height: 29px; text-align: center;"><strong>G</strong></td>
+<td style="width: 5.64825%; height: 29px; text-align: center;"><span style="font-size: 14pt;"><strong>O</strong></span></td>
+<td style="width: 5.33317%; height: 29px; text-align: center;"></td>
+<td style="width: 5.21969%; height: 29px; text-align: center;"></td>
+<td style="width: 5.83679%; height: 29px; text-align: center;"></td>
+<td style="width: 5.2268%; height: 29px; text-align: center;"></td>
+<td style="width: 5.45279%; height: 29px; text-align: center;"></td>
+<td style="width: 5.03308%; height: 29px; text-align: center;"></td>
+<td style="width: 5.58713%; height: 29px; text-align: center;"></td>
+<td style="width: 5.67099%; height: 29px; text-align: center;"></td>
+<td style="width: 6.30709%; height: 29px; text-align: center;"></td>
+<td style="width: 5.88359%; height: 29px; text-align: center;"></td>
+<td style="width: 6.24141%; height: 29px; text-align: center;"></td>
+<td style="width: 5.29899%; height: 29px; text-align: center;"></td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 5.0535%; height: 25px; text-align: center;"><strong>H</strong></td>
+<td style="width: 5.64825%; height: 25px; text-align: center;"></td>
+<td style="width: 5.33317%; height: 25px; text-align: center;"></td>
+<td style="width: 5.21969%; height: 25px; text-align: center;"></td>
+<td style="width: 5.83679%; height: 25px; text-align: center;"><span style="font-size: 14pt;"><strong>O</strong></span></td>
+<td style="width: 5.2268%; height: 25px; text-align: center;"></td>
+<td style="width: 5.45279%; height: 25px; text-align: center;"></td>
+<td style="width: 5.03308%; height: 25px; text-align: center;"></td>
+<td style="width: 5.58713%; height: 25px; text-align: center;"></td>
+<td style="width: 5.67099%; height: 25px; text-align: center;"></td>
+<td style="width: 6.30709%; height: 25px; text-align: center;"></td>
+<td style="width: 5.88359%; height: 25px; text-align: center;"></td>
+<td style="width: 6.24141%; height: 25px; text-align: center;"></td>
+<td style="width: 5.29899%; height: 25px; text-align: center;"></td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 5.0535%; height: 25px; text-align: center;"><strong>K</strong></td>
+<td style="width: 5.64825%; height: 25px; text-align: center;"></td>
+<td style="width: 5.33317%; height: 25px; text-align: center;"></td>
+<td style="width: 5.21969%; height: 25px; text-align: center;"><span style="font-size: 14pt;"><strong>O</strong></span></td>
+<td style="width: 5.83679%; height: 25px; text-align: center;"></td>
+<td style="width: 5.2268%; height: 25px; text-align: center;"></td>
+<td style="width: 5.45279%; height: 25px; text-align: center;"></td>
+<td style="width: 5.03308%; height: 25px; text-align: center;"></td>
+<td style="width: 5.58713%; height: 25px; text-align: center;"></td>
+<td style="width: 5.67099%; height: 25px; text-align: center;"></td>
+<td style="width: 6.30709%; height: 25px; text-align: center;"></td>
+<td style="width: 5.88359%; height: 25px; text-align: center;"></td>
+<td style="width: 6.24141%; height: 25px; text-align: center;"></td>
+<td style="width: 5.29899%; height: 25px; text-align: center;"></td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 5.0535%; height: 25px; text-align: center;"><strong>L</strong></td>
+<td style="width: 5.64825%; height: 25px; text-align: center;"></td>
+<td style="width: 5.33317%; height: 25px; text-align: center;"></td>
+<td style="width: 5.21969%; height: 25px; text-align: center;"></td>
+<td style="width: 5.83679%; height: 25px; text-align: center;"></td>
+<td style="width: 5.2268%; height: 25px; text-align: center;"><span style="font-size: 14pt;"><strong>O</strong></span></td>
+<td style="width: 5.45279%; height: 25px; text-align: center;"></td>
+<td style="width: 5.03308%; height: 25px; text-align: center;"></td>
+<td style="width: 5.58713%; height: 25px; text-align: center;"></td>
+<td style="width: 5.67099%; height: 25px; text-align: center;"></td>
+<td style="width: 6.30709%; height: 25px; text-align: center;"></td>
+<td style="width: 5.88359%; height: 25px; text-align: center;"></td>
+<td style="width: 6.24141%; height: 25px; text-align: center;"></td>
+<td style="width: 5.29899%; height: 25px; text-align: center;"></td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 5.0535%; height: 25px; text-align: center;"><strong>C</strong></td>
+<td style="width: 5.64825%; height: 25px; text-align: center;"></td>
+<td style="width: 5.33317%; height: 25px; text-align: center;"></td>
+<td style="width: 5.21969%; height: 25px; text-align: center;"></td>
+<td style="width: 5.83679%; height: 25px; text-align: center;"></td>
+<td style="width: 5.2268%; height: 25px; text-align: center;"></td>
+<td style="width: 5.45279%; height: 25px; text-align: center;"></td>
+<td style="width: 5.03308%; height: 25px; text-align: center;"></td>
+<td style="width: 5.58713%; height: 25px; text-align: center;"></td>
+<td style="width: 5.67099%; height: 25px; text-align: center;"></td>
+<td style="width: 6.30709%; height: 25px; text-align: center;"><span style="font-size: 14pt; color: #0000ff;"><strong>O</strong></span></td>
+<td style="width: 5.88359%; height: 25px; text-align: center;"></td>
+<td style="width: 6.24141%; height: 25px; text-align: center;"></td>
+<td style="width: 5.29899%; height: 25px; text-align: center;"></td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 5.0535%; height: 25px; text-align: center;"><strong>E</strong></td>
+<td style="width: 5.64825%; height: 25px; text-align: center;"></td>
+<td style="width: 5.33317%; height: 25px; text-align: center;"></td>
+<td style="width: 5.21969%; height: 25px; text-align: center;"></td>
+<td style="width: 5.83679%; height: 25px; text-align: center;"></td>
+<td style="width: 5.2268%; height: 25px; text-align: center;"></td>
+<td style="width: 5.45279%; height: 25px; text-align: center;"></td>
+<td style="width: 5.03308%; height: 25px; text-align: center;"></td>
+<td style="width: 5.58713%; height: 25px; text-align: center;"><span style="font-size: 14pt;"><strong>O</strong></span></td>
+<td style="width: 5.67099%; height: 25px; text-align: center;"></td>
+<td style="width: 6.30709%; height: 25px; text-align: center;"></td>
+<td style="width: 5.88359%; height: 25px; text-align: center;"></td>
+<td style="width: 6.24141%; height: 25px; text-align: center;"></td>
+<td style="width: 5.29899%; height: 25px; text-align: center;"></td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 5.0535%; height: 25px; text-align: center;"><strong>I</strong></td>
+<td style="width: 5.64825%; height: 25px; text-align: center;"></td>
+<td style="width: 5.33317%; height: 25px; text-align: center;"></td>
+<td style="width: 5.21969%; height: 25px; text-align: center;"></td>
+<td style="width: 5.83679%; height: 25px; text-align: center;"></td>
+<td style="width: 5.2268%; height: 25px; text-align: center;"></td>
+<td style="width: 5.45279%; height: 25px; text-align: center;"></td>
+<td style="width: 5.03308%; height: 25px; text-align: center;"></td>
+<td style="width: 5.58713%; height: 25px; text-align: center;"></td>
+<td style="width: 5.67099%; height: 25px; text-align: center;"><span style="font-size: 14pt;"><strong>O</strong></span></td>
+<td style="width: 6.30709%; height: 25px; text-align: center;"></td>
+<td style="width: 5.88359%; height: 25px; text-align: center;"></td>
+<td style="width: 6.24141%; height: 25px; text-align: center;"></td>
+<td style="width: 5.29899%; height: 25px; text-align: center;"></td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 5.0535%; height: 22px; text-align: center;"><strong>F</strong></td>
+<td style="width: 5.64825%; height: 22px; text-align: center;"></td>
+<td style="width: 5.33317%; height: 22px; text-align: center;"></td>
+<td style="width: 5.21969%; height: 22px; text-align: center;"></td>
+<td style="width: 5.83679%; height: 22px; text-align: center;"></td>
+<td style="width: 5.2268%; height: 22px; text-align: center;"></td>
+<td style="width: 5.45279%; height: 22px; text-align: center;"></td>
+<td style="width: 5.03308%; height: 22px; text-align: center;"></td>
+<td style="width: 5.58713%; height: 22px; text-align: center;"></td>
+<td style="width: 5.67099%; height: 22px; text-align: center;"></td>
+<td style="width: 6.30709%; height: 22px; text-align: center;"></td>
+<td style="width: 5.88359%; height: 22px; text-align: center;"><span style="font-size: 14pt;"><strong>O</strong></span></td>
+<td style="width: 6.24141%; height: 22px; text-align: center;"></td>
+<td style="width: 5.29899%; height: 22px; text-align: center;"></td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 5.0535%; height: 22px; text-align: center;"><strong>J</strong></td>
+<td style="width: 5.64825%; height: 22px; text-align: center;"></td>
+<td style="width: 5.33317%; height: 22px; text-align: center;"></td>
+<td style="width: 5.21969%; height: 22px; text-align: center;"></td>
+<td style="width: 5.83679%; height: 22px; text-align: center;"></td>
+<td style="width: 5.2268%; height: 22px; text-align: center;"></td>
+<td style="width: 5.45279%; height: 22px; text-align: center;"></td>
+<td style="width: 5.03308%; height: 22px; text-align: center;"></td>
+<td style="width: 5.58713%; height: 22px; text-align: center;"></td>
+<td style="width: 5.67099%; height: 22px; text-align: center;"></td>
+<td style="width: 6.30709%; height: 22px; text-align: center;"></td>
+<td style="width: 5.88359%; height: 22px; text-align: center;"></td>
+<td style="width: 6.24141%; height: 22px; text-align: center;"><span style="font-size: 14pt;"><strong>O</strong></span></td>
+<td style="width: 5.29899%; height: 22px; text-align: center;"></td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 5.0535%; height: 22px; text-align: center;"><strong>M</strong></td>
+<td style="width: 5.64825%; height: 22px; text-align: center;"></td>
+<td style="width: 5.33317%; height: 22px; text-align: center;"></td>
+<td style="width: 5.21969%; height: 22px; text-align: center;"></td>
+<td style="width: 5.83679%; height: 22px; text-align: center;"></td>
+<td style="width: 5.2268%; height: 22px; text-align: center;"></td>
+<td style="width: 5.45279%; height: 22px; text-align: center;"></td>
+<td style="width: 5.03308%; height: 22px; text-align: center;"></td>
+<td style="width: 5.58713%; height: 22px; text-align: center;"></td>
+<td style="width: 5.67099%; height: 22px; text-align: center;"></td>
+<td style="width: 6.30709%; height: 22px; text-align: center;"></td>
+<td style="width: 5.88359%; height: 22px; text-align: center;"></td>
+<td style="width: 6.24141%; height: 22px; text-align: center;"></td>
+<td style="width: 5.29899%; height: 22px; text-align: center;"><span style="font-size: 14pt;"><strong>O</strong></span></td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">Una vez, ya hallamos ubicados todos los vértices en el matriz, procedemos a unir los vértices.                                                      1. Identificamos al vértice raíz del árbol, el cual vendrá siendo el primero vértice que encontremos en la matriz de arriba hacia abajo (vértice de color rojo).                                                                                                                                                                    2. Identificamos su hijo derecho e izquierdo. para hallar el hijo derecho del vértice raíz buscamos el vértice que este mas arriba del lado derecho del vértice raíz, ejemplo (vértice de color azul), hacemos lo mismo para identificar el hijo izquierdo del vértice raíz, ejemplo (vértice color azul).                                                                                                                                           3. Para hallar los hijos derechos e izquierdos de los nodos o vértices restante de la matriz, hacemos lo mismo que el paso 2.    Para tener mayor clarides del tema, a continuación dejare un video donde explico como se unen los vértices de la matriz.</span></p>
+<p><a href="https://youtu.be/bdNAtwg7-vI">https://youtu.be/bdNAtwg7-vI</a></p>
+<p><span style="font-size: 12pt; font-family: arial, helvetica, sans-serif;">Árbol binario construido</span><br /><img src="nNHOXrALrrRTAbgk.png" alt="" width="483" height="345" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="index.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="actividad_de_evaluacin.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_cedec_js.js"></script></body></html>
